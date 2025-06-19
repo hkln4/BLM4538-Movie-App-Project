@@ -1,0 +1,3 @@
+APK: "application-2fb973c1-5072-4364-9240-ed53222deaa8.apk" adlı dosya.
+
+* Proje, verdiğim rapordaki 'Karanlık Mod desteği' dışındaki tüm özellikleri barındırıyor.
