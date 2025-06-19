@@ -1,34 +1,49 @@
-<<<<<<< HEAD
-# BLM4538-Movie-App-Project
-=======
-# MovieFlix
+# 🎬 BLM4538 Movie App Project
 
-A mobile app built with React Native, powered by Expo, styled using NativeWind, and connected to Appwrite for backend services. This app allows users to discover trending and latest movies and TV shows using real-time data from the TMDB API.
+Bu proje, React Native kullanılarak geliştirilen, kullanıcıların popüler filmleri keşfetmesini sağlayan bir mobil film uygulamasıdır. Uygulama, **The Movie Database (TMDb)** API üzerinden film verilerini dinamik olarak çeker ve modern bir arayüz sunar. **Appwrite** entegrasyonu ile kullanıcı kimlik doğrulaması ve veri yönetimi sağlanır. Uygulama hem **iOS** hem de **Android** cihazlarla uyumludur.
 
-🛠 Tech Stack
-React Native – Cross-platform mobile app framework
+---
 
-Expo – Streamlined development and build process
+## 📱 Temel Özellikler
 
-NativeWind – Tailwind CSS-style utility classes for styling
+### 🏠 Ana Sayfa
+- Popüler, trend olan ve yüksek puanlı filmleri listeler.
+- Film afişi, adı ve puanı gösterilir.
 
-Appwrite – Backend-as-a-Service (BaaS) for managing trending content
+### 🔍 Arama
+- Kullanıcılar film adı yazarak arama yapabilir.
+- Sonuçlar poster ve başlık ile listelenir.
 
-TMDB API – Source for movies and TV shows data
+### 🎞️ Film Detay Sayfası
+- Film açıklaması, yayın tarihi, puanı, türü ve oyuncu bilgileri yer alır.
+- Arka planda film posteri ile zengin görsel deneyim sunar.
 
-✨ Features
-🔍 Search and explore movies and TV series
+### 🎬 Kategorilere Göre Filtreleme
+- Filmler türlerine göre ayrılır.
+- TMDb API ile kategoriye özel güncel içerikler çekilir.
 
-📈 View trending media (stored and managed via Appwrite)
+---
 
-📄 Detailed movie/TV show pages
+## 🔐 Appwrite Entegrasyonu
 
-💅 Responsive and consistent UI with NativeWind
+Bu projede [**Appwrite**] kullanılarak aşağıdaki işlemler gerçekleştirilmiştir:
 
-📦 Clean integration of external APIs (TMDB)
+- **Kullanıcı Kaydı ve Girişi**: E-posta/şifre ile kullanıcı oluşturma ve oturum açma.
+- **Veri Saklama**: Favori filmler gibi kullanıcıya özel verilerin Appwrite veritabanında saklanması.
+- **Güvenli API İletişimi**: Backend servisleriyle güvenli bağlantı.
 
+---
 
-npm install
+## Diğer Teknolojiler
 
-npx expo start
->>>>>>> 9e53105c (feat: using react native to build movie app)
+- **React Native**: Mobil arayüzlerin platformlar arası geliştirilmesi
+- **TMDb API**: Film verilerinin dinamik olarak çekilmesi
+- **Appwrite**: Kimlik doğrulama ve veritabanı yönetimi
+- **Expo**: React Native geliştirme sürecinin hızlandırılması
+
+---
+
+## Geliştirici
+
+**Hasan Kalın**  
+Öğrenci No: 20291267  
