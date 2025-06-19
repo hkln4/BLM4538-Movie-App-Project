@@ -1,3 +1,30 @@
-APK: "application-2fb973c1-5072-4364-9240-ed53222deaa8.apk" adlı dosya.
+** APK: "application-2fb973c1-5072-4364-9240-ed53222deaa8.apk" adlı dosya.
 
 * Proje, verdiğim rapordaki 'Karanlık Mod desteği' dışındaki tüm özellikleri barındırıyor.
+
+1. app/
+  • Sayfa yapısını ve yönlendirmeyi (routing) içerir. tabs, movies, tvs gibi ekranlar burada.
+
+2. assets/
+	•	Görseller, ikonlar, fontlar burada tutuluyor.
+
+3. components/
+	•	Uygulamada tekrar kullanılabilir bileşenleri içeriyor.
+	•	SearchBar, TabIcon vs.
+
+4. constants/
+	•	Sabit veriler, statik bilgiler burada yer alıyor.
+	•	ikonlar, fotoğraflar.
+
+5. data/
+  • Film ve dizi verilerinin TypeScript arayüzleri ve mock veri yapıları gibi veri modellerini tanımlamak için kullanılır.
+
+5. interfaces/
+  • Film posterleri vs arayüzleri
+
+6. env/
+  • API anahtarları vs.
+
+7. services/
+  • API isteklerinin yapıldığı dosyalar.
+
